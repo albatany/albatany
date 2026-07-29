@@ -1,17 +1,3 @@
-<!--
-  README for github.com/AZIZ_GITHUB_USERNAME
-
-  Before pushing:
-  1. Replace every occurrence of AZIZ_GITHUB_USERNAME below with the real
-     GitHub username for this account (find & replace, ~6 spots).
-  2. Put assets/glitch-header.svg in an /assets folder in this same repo
-     (this file must live in the special repo named exactly your username,
-     e.g. github.com/AZIZ_GITHUB_USERNAME/AZIZ_GITHUB_USERNAME).
-  3. The contribution snake and GitHub stats cards need a real username to
-     resolve — see the "set it up" note further down for the one-time
-     Action setup.
--->
-
 <div align="center">
 
 <img src="./assets/glitch-header.svg" width="100%" alt="Aziz Albatany"/>
