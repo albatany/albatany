@@ -71,71 +71,6 @@ status: probably debugging, or writing riffs
 
 <br/>
 
-### 📊 github stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=albatany&show_icons=true&hide_border=true&bg_color=0d0208&title_color=00ff41&text_color=c9c9c9&icon_color=05d9e8&border_color=00ff41" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=albatany&layout=compact&hide_border=true&bg_color=0d0208&title_color=00ff41&text_color=c9c9c9&border_color=00ff41" width="34%"/>
-
-<img src="https://streak-stats.demolab.com?user=AZIZ_GITHUB_USERNAME&hide_border=true&background=0d0208&ring=00ff41&fire=ff2079&currStreakLabel=00ff41&sideLabels=c9c9c9&currStreakNum=ffffff&sideNums=c9c9c9&dates=6a6a6a" width="70%"/>
-
-</div>
-
-<br/>
-
-### 🐍 contribution snake
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/albatany/albatany/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/albatany/albatany/output/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/albatany/albatany/output/github-snake.svg" width="80%"/>
-</picture>
-</div>
-
-<details>
-<summary><sub>set it up (one-time, ~2 minutes)</sub></summary>
-<br/>
-
-Create `.github/workflows/snake.yml` in this repo:
-
-```yaml
-name: generate snake animation
-on:
-  schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch: {}
-  push:
-    branches: [ main ]
-
-permissions:
-  contents: write
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg?color_snake=#00ff41&color_dots=#0d0208,#123822,#0f5c33,#00a83b,#00ff41
-            dist/github-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Push it once, let the Action run, and the snake above lights up on its own — no further edits needed.
-
-</details>
-
-<br/>
-
 ### 📡 contact
 
 <div align="center">
@@ -151,7 +86,5 @@ Push it once, let the Action run, and the snake above lights up on its own — n
 <div align="center">
 <sub>root@albatany:~$ cd ../<a href="https://github.com/AceBreaker-Cell">AceBreaker-Cell</a>&nbsp;&nbsp;<i># same person, other terminal</i></sub>
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0208,50:0f2e1a,100:0d0208&height=100&section=footer" width="100%"/>
 
 </details>
